@@ -25,7 +25,7 @@ db_session.add(tracy)
 db_session.commit()
 ```
 
-Sample Query
+Sample Query - localhost:5000/graphql to access query browser or point GraphQL Playground to the same url.
 ```
 query{
   allEmployees(sort: name_desc) {
